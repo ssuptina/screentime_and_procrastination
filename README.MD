@@ -1,63 +1,175 @@
-# Project Title
+# 📊 Screen Time and Procrastination Analysis
 
-## Overview
-This project explores the relationship between screen time habits and procrastination using user data. The analysis combines SQL preprocessing, notebook-based feature engineering, and visualization to generate meaningful insights.
+An end-to-end data analytics case study investigating the relationship between smartphone usage and procrastination among university students. This project demonstrates a complete analytics workflow, from primary data collection and SQL-based data validation to Python analysis and interactive Tableau dashboard development.
 
-## Business Problem
-Excessive screen time and digital distractions are often linked to lower productivity and higher procrastination. This project aims to understand that relationship and support data-driven decisions for better time management and student well-being.
+---
 
-## Objectives
-- Analyze how screen time patterns relate to procrastination behavior
-- Identify key factors contributing to procrastination
-- Prepare a cleaned dataset for reporting and visualization
-- Create a simple business-friendly dashboard and summary insights
+# Project Overview
 
-## Dataset
-The project uses raw user data stored in the data/raw folder. The data was processed using SQL and further transformed in notebooks, with the final cleaned dataset saved in data/processed.
+Excessive smartphone usage has become a growing concern among university students due to its potential impact on academic productivity and digital well-being. This case study analyzes screen time behavior using survey data collected from university students aged 20–30 years to identify behavioral patterns associated with procrastination and provide data-driven business recommendations.
 
-## Tools Used
+---
+
+# Business Scenario
+
+This project was developed around a hypothetical EdTech company, **FocusTech**, which aims to improve student productivity through digital well-being solutions. As a Junior Data Analyst, the objective was to analyze user behavior and provide actionable insights to support future product development.
+
+---
+
+# Business Objectives
+
+- Analyze daily smartphone screen time among university students.
+- Identify the most frequently used application categories.
+- Examine the relationship between screen time and procrastination.
+- Explore the impact of study habits and sleep duration.
+- Generate business recommendations to promote healthier digital habits.
+
+---
+
+# Dataset
+
+- **Source:** Primary survey conducted using Google Forms
+- **Target Population:** University students (20–30 years)
+- **Total Responses:** 58
+- **Data Type:** Cross-sectional survey data
+
+---
+
+# Tech Stack
+
 - Python
-- SQL
+- Pandas
+- NumPy
+- Matplotlib
+- Seaborn
+- MySQL
+- Tableau Public
 - Jupyter Notebook
-- Tableau
-- Pandas and other data analysis libraries
 
-## Project Workflow
-1. Load and inspect raw data
-2. Clean and preprocess the data using SQL
-3. Create engineered variables in notebooks
-4. Transform the data into a cleaned analysis dataset
-5. Generate visualizations and dashboard-ready outputs
+---
 
-## Dashboard Screenshot
-Add a screenshot of the dashboard here if available.
+# Project Workflow
 
-## Key Findings
-- Screen time habits show a noticeable relationship with procrastination patterns
-- Certain behavioral and demographic factors appear to influence the results
-- The cleaned dataset supports strong visualization and reporting outcomes
+```text
+Google Forms
+      ↓
+Data Cleaning (Excel)
+      ↓
+MySQL
+(Data Validation & SQL Analysis)
+      ↓
+Python
+(Data Cleaning, Feature Engineering & EDA)
+      ↓
+Tableau
+(Interactive Dashboard)
+      ↓
+Business Insights & Recommendations
+```
 
-## Business Recommendations
-- Encourage healthier digital habits and screen-time awareness
-- Promote time-blocking and focus strategies for students
-- Use the dashboard to monitor patterns and support decision-making
+---
 
-## Repository Structure
-- data/raw: original raw input data
-- data/processed: cleaned and processed datasets
-- notebooks: analysis and feature engineering notebooks
-- sql: SQL queries used for preprocessing and analysis
-- report/businessintelligence: reports and outputs
-- tableau: Tableau-related files
+# Repository Structure
 
-## How to Run
-1. Install dependencies:
-   pip install -r requirements.txt
-2. Open the notebooks in the notebooks folder
-3. Use the processed dataset in data/processed/tableau_dataset.csv for analysis and visualization
+```
+ScreenTime-Procrastination-Analysis
+│
+├── data
+│   ├── raw
+│   └── processed
+│
+├── notebooks
+│
+├── sql
+│
+├── tableau
+│
+├── report
+│
+├── images
+│
+└── README.md
+```
 
-## Future Improvements
-- Add more advanced feature engineering
-- Expand the analysis with additional demographic variables
-- Improve dashboard design and interactivity
-- Add predictive modeling for procrastination risk
+---
+
+# Dashboard
+
+📷 **Dashboard Preview**
+
+*(Insert dashboard screenshot here)*
+
+🔗 **Live Tableau Dashboard:** *(Insert Tableau Public link)*
+
+---
+
+# Key Findings
+
+- Average daily screen time: **5.39 hours**
+- Average study duration: **2.61 hours/day**
+- Average sleep duration: **6.96 hours/day**
+- Average procrastination score: **3.05/5**
+- Social media was among the most frequently used application categories.
+- Students with higher screen time generally reported higher procrastination levels.
+
+---
+
+# Business Recommendations
+
+- Develop personalized screen-time dashboards.
+- Introduce AI-powered Smart Focus Mode.
+- Deliver weekly productivity insight reports.
+- Implement sleep-aware digital wellness features.
+- Develop AI-based procrastination detection.
+- Introduce gamification to encourage healthy digital habits.
+
+---
+
+# Skills Demonstrated
+
+- SQL Data Validation
+- Data Cleaning
+- Exploratory Data Analysis (EDA)
+- Feature Engineering
+- Statistical Analysis
+- Data Visualization
+- Dashboard Design
+- Business Intelligence
+- Data Storytelling
+
+---
+
+# How to Run
+
+1. Clone the repository
+
+```bash
+git clone https://github.com/yourusername/screentime_and_procrastination.git
+```
+
+2. Install dependencies
+
+```bash
+pip install -r requirements.txt
+```
+
+3. Open the Jupyter notebook inside the `notebooks` folder.
+
+4. Launch the Tableau workbook using the processed dataset.
+
+---
+
+# Future Improvements
+
+- Increase the survey sample size.
+- Integrate real-time smartphone usage data.
+- Develop predictive machine learning models for procrastination risk.
+- Expand the Tableau dashboard with advanced interactive analytics.
+
+---
+
+# Author
+
+**Teena Neupane**
+
+Computer Science Engineering Graduate | Aspiring Data Analyst
