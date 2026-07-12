@@ -94,7 +94,7 @@ ScreenTime-Procrastination-Analysis
 
 - 📊 **Live Tableau Dashboard:** https://public.tableau.com/app/profile/teena.neupane6739/viz/ScreentimeAndProcrastination/Dashboard1
 - 💻 **GitHub Repository:** https://github.com/ssuptina/screentime_and_procrastination
-- 📄 **Case Study Report:** https://github.com/ssuptina/screentime_and_procrastination/report/ScreentimeandProcrastination.pdf
+- 📄 **Case Study Report:** https://github.com/ssuptina/screentime_and_procrastination/report/Screentime%20and%20Procrastination.pdf
 
 # Key Findings
 
